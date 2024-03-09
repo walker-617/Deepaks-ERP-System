@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Smartphone X",
+    "category": "Electronics",
+    "price": 699.99,
+    "stock_quantity": 150
+  },
+  {
+    "name": "Laptop Pro",
+    "category": "Electronics",
+    "price": 1299.99,
+    "stock_quantity": 80
+  },
+  {
+    "name": "HD Smart TV",
+    "category": "Electronics",
+    "price": 899.99,
+    "stock_quantity": 50
+  },
+  {
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "price": 129.99,
+    "stock_quantity": 200
+  },
+  {
+    "name": "Coffee Maker Deluxe",
+    "category": "Home Appliances",
+    "price": 49.99,
+    "stock_quantity": 120
+  },
+  {
+    "name": "Memory Foam Pillow",
+    "category": "Home & Living",
+    "price": 29.99,
+    "stock_quantity": 300
+  },
+  {
+    "name": "Men's Classic Watch",
+    "category": "Fashion",
+    "price": 79.99,
+    "stock_quantity": 100
+  },
+  {
+    "name": "Women's Backpack",
+    "category": "Fashion",
+    "price": 59.99,
+    "stock_quantity": 80
+  },
+  {
+    "name": "Fitness Tracker",
+    "category": "Health & Wellness",
+    "price": 49.99,
+    "stock_quantity": 150
+  },
+  {
+    "name": "Portable Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 39.99,
+    "stock_quantity": 180
+  },
+  {
+    "name": "Gaming Console Elite",
+    "category": "Electronics",
+    "price": 499.99,
+    "stock_quantity": 70
+  },
+  {
+    "name": "Digital Camera Pro",
+    "category": "Electronics",
+    "price": 799.99,
+    "stock_quantity": 40
+  },
+  {
+    "name": "Robot Vacuum Cleaner",
+    "category": "Home Appliances",
+    "price": 249.99,
+    "stock_quantity": 90
+  },
+  {
+    "name": "Stainless Steel Cookware Set",
+    "category": "Home & Living",
+    "price": 129.99,
+    "stock_quantity": 60
+  },
+  {
+    "name": "Men's Running Shoes",
+    "category": "Fashion",
+    "price": 89.99,
+    "stock_quantity": 120
+  },
+  {
+    "name": "Women's Smart Watch",
+    "category": "Fashion",
+    "price": 149.99,
+    "stock_quantity": 50
+  },
+  {
+    "name": "Yoga Mat with Alignment Lines",
+    "category": "Health & Wellness",
+    "price": 34.99,
+    "stock_quantity": 200
+  },
+  {
+    "name": "Wireless Charging Pad",
+    "category": "Electronics",
+    "price": 19.99,
+    "stock_quantity": 250
+  },
+  {
+    "name": "Dining Table Set",
+    "category": "Furniture",
+    "price": 399.99,
+    "stock_quantity": 30
+  },
+  {
+    "name": "Rainbow LED Desk Lamp",
+    "category": "Home & Living",
+    "price": 27.99,
+    "stock_quantity": 150
+  },
+  {
+    "name": "Wireless Noise-Canceling Earbuds",
+    "category": "Electronics",
+    "price": 129.99,
+    "stock_quantity": 100
+  },
+  {
+    "name": "Digital Drawing Tablet",
+    "category": "Electronics",
+    "price": 199.99,
+    "stock_quantity": 60
+  },
+  {
+    "name": "Air Purifier with HEPA Filter",
+    "category": "Home Appliances",
+    "price": 149.99,
+    "stock_quantity": 80
+  },
+  {
+    "name": "Luxury Bedding Set",
+    "category": "Home & Living",
+    "price": 159.99,
+    "stock_quantity": 40
+  },
+  {
+    "name": "Men's Leather Jacket",
+    "category": "Fashion",
+    "price": 179.99,
+    "stock_quantity": 70
+  },
+  {
+    "name": "Women's Crossbody Bag",
+    "category": "Fashion",
+    "price": 69.99,
+    "stock_quantity": 120
+  },
+  {
+    "name": "Smart Water Bottle with Bluetooth",
+    "category": "Health & Wellness",
+    "price": 44.99,
+    "stock_quantity": 180
+  },
+  {
+    "name": "Ultra-Thin Laptop Stand",
+    "category": "Electronics",
+    "price": 29.99,
+    "stock_quantity": 200
+  },
+  {
+    "name": "3-Piece Patio Furniture Set",
+    "category": "Furniture",
+    "price": 299.99,
+    "stock_quantity": 50
+  },
+  {
+    "name": "Desk Organizer and Charging Station",
+    "category": "Office Supplies",
+    "price": 24.99,
+    "stock_quantity": 150
+  }
+
+]

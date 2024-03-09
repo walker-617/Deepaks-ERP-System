@@ -1,38 +1,182 @@
-.App {
-  text-align: center;
+body::-webkit-scrollbar {
+    display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.products,
+.orders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.product,
+.order {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.product-details :nth-child(1),.order-details :nth-child(1) {
+    font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.product-details :nth-child(2),.order-details :nth-child(2) {
+    font-size: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-details :nth-child(3),.order-details :nth-child(3) {
+    font-size: 17px;
+}
+
+.product-details  :nth-child(4) {
+    font-size: 12px;
+}
+
+.alter {
+    font-size: 12px;
+    display: inline-block;
+    padding: 5px;
+    background-color: lightgrey;
+    margin-right: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.alter:hover {
+    background-color: darkgrey;
+}
+
+.update-order, .delete-order, .edit-product, .delete-product {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 20px;
+    width: 30%;
+    padding: 20px;
+    visibility: hidden;
+}
+
+.update-order  :nth-child(1), .delete-order :nth-child(1), .edit-product :nth-child(1), .delete-product  :nth-child(1) {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.update-order :nth-child(2), .delete-order :nth-child(2), .edit-product :nth-child(2), .delete-product  :nth-child(2) {
+    font-size: 15px;
+}
+
+.update-order :nth-child(3), .delete-order :nth-child(3), .delete-product  :nth-child(3) {
+    font-size: 20px;
+}
+
+.edit-product :nth-child(3){
+    margin-top: 20px;
+}
+
+.background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+.status  :nth-child(n) {
+    font-weight: normal;
+    font-size: 20px;
+    margin: 5px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.status  :nth-child(1) {
+    background-color: lightgreen;
+}
+
+.status  :nth-child(1):hover {
+    background-color: rgb(68, 203, 68);
+}
+
+.status  :nth-child(2) {
+    background-color: lightblue;
+}
+
+.status  :nth-child(2):hover {
+    background-color: rgb(58, 184, 226);
+}
+
+.status  :nth-child(3) {
+    background-color: lightgrey;
+}
+
+.status  :nth-child(3):hover {
+    background-color: rgb(147, 147, 147);
+}
+
+.status  :nth-child(4) {
+    background-color: rgb(252, 147, 147);
+}
+
+.status  :nth-child(4):hover {
+    background-color: rgb(230, 97, 97);
+}
+
+.confirm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.confirm  :nth-child(n) {
+    font-size: 15px;
+    font-weight: normal;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.confirm  :nth-child(1) {
+    background-color: rgba(0, 0, 130);
+    border: 2px solid rgba(0, 0, 130);
+}
+
+.confirm  :nth-child(1):hover {
+    background-color: white;
+    border: 2px solid rgba(0, 0, 130);
+    color: rgba(0, 0, 130);
+}
+
+.confirm  :nth-child(2) {
+    background-color: rgb(195, 0, 0);
+    border: 2px solid rgb(195, 0, 0);
+}
+
+.confirm  :nth-child(2):hover {
+    background-color: white;
+    border: 2px solid rgb(195, 0, 0);
+    color: rgb(195, 0, 0);
+}
+
+.input{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 5px 0;
+    width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+    .update-order, .delete-order, .edit-product, .delete-product {
+        width: 50%;
+    }
 }
